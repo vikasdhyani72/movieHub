@@ -5,7 +5,7 @@ const Movies = () => {
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
-    const url = 'http://localhost:3000/movies'
+    const url = 'https://moviehub-vkpk.onrender.com/movies'
     const fetchMovies = async () => {
       try {
         const response = await fetch(url)

@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const res = await fetch('http://localhost:3000/movies')
+        const res = await fetch('https://moviehub-vkpk.onrender.com/movies')
         const data = await res.json()
 
         const selectedMovies = data.slice(9, 17)

@@ -7,7 +7,7 @@ const MovieDetail = () => {
   const [showTrailer, setShowTrailer] = useState(false)
 
   useEffect(() => {
-    const url = `http://localhost:3000/movies/${id}`
+    const url = `https://moviehub-vkpk.onrender.com/movies/${id}`
     const fetchMovie = async () => {
       try {
         const response = await fetch(url)
