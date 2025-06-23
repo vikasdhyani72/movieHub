@@ -1,18 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Movies = () => {
   const [movies, setMovies] = useState([])
 
   useEffect(() => {
-    const API_KEY = 'a0c82a90207acc4bdc5caa9bab9a9633'
+    const url = 'http://localhost:3000/movies'
     const fetchMovies = async () => {
       try {
-        const response = await fetch(
-          `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`
-        )
+        const response = await fetch(url)
         const data = await response.json()
-        setMovies(data.results)
+        setMovies(data)
       } catch (error) {
         console.error('Error fetching movies:', error)
       }
@@ -30,15 +28,15 @@ const Movies = () => {
           <Link key={movie.id} to={`/movies/${movie.id}`}>
             <div className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition">
               <img
-                src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                alt={movie.title}
-                className="w-full h-72 object-cover"
+                src={movie.image}
+                alt={movie.name}
+                className="w-full h-[500px] object-fit object-center"
               />
               <div className="p-4">
                 <h2 className="text-lg font-semibold text-white">
-                  {movie.title}
+                  {movie.name}
                 </h2>
-                <p className="text-sm text-gray-400">⭐ {movie.vote_average}</p>
+                <p className="text-sm text-gray-400">⭐ {movie.rating}</p>
               </div>
             </div>
           </Link>

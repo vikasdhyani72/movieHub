@@ -1,0 +1,454 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Inception",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRRyuWmayVBvqjd1MxTKpRgauq2cCtUzb7Q9QvaFTkAuxAU_EYMoCE3wBuJeftxIzf0grreIw",
+      "rating": 6.7,
+      "description": "Inception is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2017,
+      "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    },
+    {
+      "id": 2,
+      "name": "The Dark Knight",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfE_qrYMBZ_JB8om-34WGaZARhpX26yWRttqIDvn4_7l--UzX8mxKcPrc59IcvTpEA_G8gPA",
+      "rating": 9.3,
+      "description": "The Dark Knight is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2008,
+      "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+    },
+    {
+      "id": 3,
+      "name": "Interstellar",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngBJ0B7UDrLUkDlp6DCQLsEYuWR-DiHwbnxFFCniB3HiP3f3NZmR1-lKSC34ge6YXu4LX",
+      "rating": 7.6,
+      "description": "Interstellar is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2014,
+      "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+    },
+    {
+      "id": 4,
+      "name": "Parasite",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTTRGm5Vxt-AKoe72ASaC0F1w58TkuIQTuYrjrzhHkAcZYXXUS9WQdAuaikkuRMX50MWN01lw",
+      "rating": 8.5,
+      "description": "Parasite is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2019,
+      "trailer": "https://www.youtube.com/watch?v=5xH0HfJHsaY"
+    },
+    {
+      "id": 5,
+      "name": "Avengers: Endgame",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQF0TjmtfnNHBJ_S2JMzOhF45NgJAjRKpRZipRZex1tw-KLZQ8R9aIp_TGGDNWBx4iSy3a",
+      "rating": 7.2,
+      "description": "Avengers: Endgame is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2019,
+      "trailer": "https://www.youtube.com/watch?v=TcMBFSGVi1c"
+    },
+    {
+      "id": 6,
+      "name": "Titanic",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlcQXin_CNozAFkv_SSihe5eZ_lvDD5nBqCmQT3xPf6KLlqHloIo5cBRGqwuy8pjuIiZrqoA",
+      "rating": 9.3,
+      "description": "Titanic is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1997,
+      "trailer": "https://www.youtube.com/watch?v=2e-eXJ6HgkQ"
+    },
+    {
+      "id": 7,
+      "name": "Jurassic Park",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ1JuD1fDYYs7-IqHydpi304Jr3eZsBW9i58o6yTa7d3tGzKFJvcFGwatAtxLIhTZaWJ8tY",
+      "rating": 8.8,
+      "description": "Jurassic Park is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1993,
+      "trailer": "https://www.youtube.com/watch?v=lc0UehYemQA"
+    },
+    {
+      "id": 8,
+      "name": "The Matrix",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWXVvfvZR3oe7PCMM0exwV0dObOTKvLfSM-bjvKpQ1VegKXuCtq6aBrxqbIgUNxMbfavy",
+      "rating": 6.7,
+      "description": "The Matrix is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1999,
+      "trailer": "https://www.youtube.com/watch?v=vKQi3bBA1y8"
+    },
+    {
+      "id": 9,
+      "name": "Gladiator",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzT2Ev_J0xtCX_zOC56YPL9zwt4PhFu79jO171BhtfCNYUI4SFo9dmwqJkw1753NUYvMuKg",
+      "rating": 6.8,
+      "description": "Gladiator is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2015,
+      "trailer": "https://www.youtube.com/watch?v=owK1qxDselE"
+    },
+    {
+      "id": 10,
+      "name": "Avatar",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTwJPOxfRiaHwXkICnf6LKMHIPWJPGLx8wht-wZH-qFs0OXXUCBvOeCQTs79z7Bx9odsdsB",
+      "rating": 8.5,
+      "description": "Avatar is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2009,
+      "trailer": "https://www.youtube.com/watch?v=5PSNL1qE6VY"
+    },
+    {
+      "id": 11,
+      "name": "The Shawshank Redemption",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSf1DK32xKMQzqSl8wnY1BLVu_gdwsRYzVSNM6A03r6c-fEwrif8raKzkFRuerw1KHdDICvOw",
+      "rating": 6.6,
+      "description": "The Shawshank Redemption is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1988,
+      "trailer": "https://www.youtube.com/watch?v=6hB3S9bIaco"
+    },
+    {
+      "id": 12,
+      "name": "Forrest Gump",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNI2SBzYW95C8Wo7zYV3bzVzem58xPnUzsZGLsnLg17mSMgR574acQZpgNK7a5XeF3THjqgQ",
+      "rating": 8.0,
+      "description": "Forrest Gump is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2012,
+      "trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg"
+    },
+    {
+      "id": 13,
+      "name": "Pulp Fiction",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqzGSUVlP74iyuFujryxWBYV6yqGirkn7BFHIJXEMzS4gNI-Z2wEKZsW6dLYA9B77BgyPdg",
+      "rating": 6.5,
+      "description": "Pulp Fiction is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1990,
+      "trailer": "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
+    },
+    {
+      "id": 14,
+      "name": "Fight Club",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ_SpVkWXBnRsBBNbDaV8dur-3jlOi6fepmxBrYGkzDwHj-xtDGP4jySn7xvonE9lqNpBdRWg",
+      "rating": 6.6,
+      "description": "Fight Club is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2010,
+      "trailer": "https://www.youtube.com/watch?v=SUXWAEX2jlg"
+    },
+    {
+      "id": 15,
+      "name": "The Godfather",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQAY2xsJVIZxm3K0gNtOMr9CSCvLdr5kdo3V3pv2HMuUkTBhFzRe5-b8NDRmO1mt5S5Xp_YyQ",
+      "rating": 9.2,
+      "description": "The Godfather is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2005,
+      "trailer": "https://www.youtube.com/watch?v=sY1S34973zA"
+    },
+    {
+      "id": 16,
+      "name": "The Lord of the Rings: The Return of the King",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQQc9TF2jMcUd4xoSyvFS1be_J9C1jHLjm4FTAqmBJs9jcBLzOJoSvylFlc5zMbVnh0LofggQ",
+      "rating": 8.1,
+      "description": "The Lord of the Rings: The Return of the King is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2003,
+      "trailer": "https://www.youtube.com/watch?v=r5X-hFf6Bwo"
+    },
+    {
+      "id": 17,
+      "name": "Star Wars: A New Hope",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBBTGgVQq5SADx7QduQTcJZnNO2I9qHUD0iTavGzrb5Piy9PyOig0xSBuHGhBsgIT8xNs_sw",
+      "rating": 8.2,
+      "description": "Star Wars: A New Hope is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1983,
+      "trailer": "https://www.youtube.com/watch?v=vZ734NWnAHA"
+    },
+    {
+      "id": 18,
+      "name": "Back to the Future",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTiqGq9mP65ejhNJZR4QWQYphpTtjC7_UHGRkiYKH2Kx8Eki6xJOob_X3kDMsxEGuwlaGiM",
+      "rating": 8.4,
+      "description": "Back to the Future is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2013,
+      "trailer": "https://www.youtube.com/watch?v=qvsgGtivCgs"
+    },
+    {
+      "id": 19,
+      "name": "The Lion King",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTv0REMOInqkdMG-8AbTQIVTv9bmlN6O6CM0yh12hG_uQ_U66Q2k0aQVj2ajafAYWOrWUJt3A",
+      "rating": 9.3,
+      "description": "The Lion King is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2019,
+      "trailer": "https://www.youtube.com/watch?v=4sj1MT05lAA"
+    },
+    {
+      "id": 20,
+      "name": "Spider-Man: No Way Home",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJXG-39ax_uSWVuU05XI2eynuf0D9rcrNmFBJfCDIm_K9A2SUdFTMRREZ7JVqliTX3NodG9A",
+      "rating": 8.6,
+      "description": "Spider-Man: No Way Home is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2022,
+      "trailer": "https://www.youtube.com/watch?v=JfVOs4VSpmA"
+    },
+    {
+      "id": 21,
+      "name": "Doctor Strange",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWCvm2jN-QykoEwZJivikl3aQeUw2gxcI5WvWU5Kmx2tmIwMBdu9Bjpkw_9ztcNyumv03T1A",
+      "rating": 8.6,
+      "description": "Doctor Strange is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2016,
+      "trailer": "https://www.youtube.com/watch?v=HSzx-zryEgM"
+    },
+    {
+      "id": 22,
+      "name": "Black Panther",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1MSjVz4AlBMvl3RD0eXqenCdZbowXC-2uGUcgYGSrtuOdsVAGWVYmJ24_wB54zLkMxaVU",
+      "rating": 8.0,
+      "description": "Black Panther is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2022,
+      "trailer": "https://www.youtube.com/watch?v=xjDjIWPwcPU"
+    },
+    {
+      "id": 23,
+      "name": "Iron Man 3",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_FrS2hYbP-VeStteLDNA7YfEl0fuF3tdrDNSDo6V5g6_bUFHAdzfnN5qMDEk3AxREdTmQ",
+      "rating": 8.5,
+      "description": "Iron Man is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2015,
+      "trailer": "https://www.youtube.com/watch?v=Ke1Y3P9D0Bc"
+    },
+    {
+      "id": 24,
+      "name": "Captain America: Civil War",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT4deWCcW67wZf2oL9_myl-cFgUBzVTcAYfDFONt635m_SHofnGV8veGVQ6U1-Izuf_h4PB_w",
+      "rating": 7.8,
+      "description": "Captain America: Civil War is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2003,
+      "trailer": "https://www.youtube.com/watch?v=dKrVegVI0Us"
+    },
+    {
+      "id": 25,
+      "name": "Thor: Ragnarok",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReCMlKbpqsAfxj-E797wdboaNM6ihmp86wfnL_bjVnI8NE-Xvr8h_zUtykA9hi6HtjyS1Z",
+      "rating": 6.6,
+      "description": "Thor: Ragnarok is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2017,
+      "trailer": "https://www.youtube.com/watch?v=ue80QwXMRHg"
+    },
+    {
+      "id": 26,
+      "name": "Guardians of the Galaxy",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5LmvEQ3u221y-8Qv0Qj-e7ORLVYZoq1Y-CyRSIi0WvFIvtNTcvICk-cG0YErJxw7PqeJ3",
+      "rating": 7.8,
+      "description": "Guardians of the Galaxy is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2023,
+      "trailer": "https://www.youtube.com/watch?v=d96cjJhvlMA"
+    },
+    {
+      "id": 27,
+      "name": "Deadpool",
+      "image": "https://variety.com/wp-content/uploads/2013/06/deadpool-trailer-2.jpg?w=1000",
+      "rating": 7.4,
+      "description": "Deadpool is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2016,
+      "trailer": "https://www.youtube.com/watch?v=ONHBaC-pfsk"
+    },
+    {
+      "id": 28,
+      "name": "Wonder Woman",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Wonder_Woman_750.jpg",
+      "rating": 6.9,
+      "description": "Wonder Woman is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2024,
+      "trailer": "https://www.youtube.com/watch?v=1Q8fG0TtVAY"
+    },
+    {
+      "id": 29,
+      "name": "Aquaman",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqkDLgszM3MzAJhzm6n2Dun_sCJPKKTPsj1tdi-I1wdqRHrDnyZHPBzvgduZHDknJBjTaoAA",
+      "rating": 7.5,
+      "description": "Aquaman is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2018,
+      "trailer": "https://www.youtube.com/watch?v=WDkg3h8PCVU"
+    },
+    {
+      "id": 30,
+      "name": "Shazam!",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOGzWgPqw1tEsKnjdhyyij6JrbJBGBQMkxT47HbAKYdQccK2hWeLxPvoKEwFr6IM2do3I6CA",
+      "rating": 8.6,
+      "description": "Shazam! is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2003,
+      "trailer": "https://www.youtube.com/watch?v=go6GEIrcvFY"
+    },
+    {
+      "id": 31,
+      "name": "Mission Impossible: Fallout",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwGiTGirAfkHRwhcTAZP1Ub4f5AkVItHJNxRjg3vPFgC1kZZCn-Dx-vbyhplLidZraFMn6",
+      "rating": 7.5,
+      "description": "Mission Impossible: Fallout is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2018,
+      "trailer": "https://www.youtube.com/watch?v=wb49-oV0F78"
+    },
+    {
+      "id": 32,
+      "name": "Mad Max: Fury Road",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS98lxYao_OGwQYaj4BvSjVX7zD9_zioUo3Oiy9q32Z3wOhIlqA7vWjt79RqcL7mxDT3r6KFw",
+      "rating": 9.0,
+      "description": "Mad Max: Fury Road is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1991,
+      "trailer": "https://www.youtube.com/watch?v=hEJnMQG9ev8"
+    },
+    {
+      "id": 33,
+      "name": "John Wick",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX3G3zC9feTJvs-Q5_xsAo2VNqrMOLBv1NrlgKJPz2MrbUi_jSzNaQc58xx8MVXI5J-7UE_A",
+      "rating": 8.3,
+      "description": "John Wick is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2010,
+      "trailer": "https://www.youtube.com/watch?v=2AUmvWm5ZDQ"
+    },
+    {
+      "id": 34,
+      "name": "The Revenant",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSkdee7gA_U9lLfFV9DYkp-URexEPFmMyZWYywMz36rTp3iXmBXASlmHBjdVAlJG1hJB16A",
+      "rating": 8.3,
+      "description": "The Revenant is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1981,
+      "trailer": "https://www.youtube.com/watch?v=LoebZZ8K5N0"
+    },
+    {
+      "id": 35,
+      "name": "Django Unchained",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR5Lfa4ibICyzzbnwtcbK3BYxq-3Hq8Jb88h-iCVrlAreileTgmiEecVYgYNh-vMyncuq_z1w",
+      "rating": 7.9,
+      "description": "Django Unchained is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2015,
+      "trailer": "https://www.youtube.com/watch?v=eUdM9vrCbow"
+    },
+    {
+      "id": 36,
+      "name": "The Wolf of Wall Street",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJLETXaR_Fe5gBrk2Q5YhohJ9uAiFpS5RyS5QoMv8xHEGweQUPWbHkTzwAK_y297vLGPVylA",
+      "rating": 7.1,
+      "description": "The Wolf of Wall Street is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2002,
+      "trailer": "https://www.youtube.com/watch?v=iszwuX1AK6A"
+    },
+    {
+      "id": 37,
+      "name": "Whiplash",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfMrzXyHwhlsfpQ4Lo69gYh2SPU_RO_3i1qgmWBALUJkEySSHc6DK7Z-SSlh3zGhsqZpJD6g",
+      "rating": 7.0,
+      "description": "Whiplash is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2022,
+      "trailer": "https://www.youtube.com/watch?v=7d_jQycdQGo"
+    },
+    {
+      "id": 38,
+      "name": "La La Land",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1lCb_n9zpiK_Mte6VOrK3WPaDcWGdtUeqSzudKld4xexIlIXl3HnW_jhTHD1PsS-30FgkzQ",
+      "rating": 7.1,
+      "description": "La La Land is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2022,
+      "trailer": "https://www.youtube.com/watch?v=0pdqf4P9MB8"
+    },
+    {
+      "id": 39,
+      "name": "Blade Runner 2049",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTCE1TNkOpywSs_Xa4FdDXEyvbs-dZObwb_MPZOwRLqf0QiFji-cwM8p0uIlrOrO9Fji4eeaw",
+      "rating": 7.5,
+      "description": "Blade Runner 2049 is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2027,
+      "trailer": "https://www.youtube.com/watch?v=gCcx85zbxz4"
+    },
+    {
+      "id": 40,
+      "name": "The Social Network",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRStygZ8XFCUEhXmS1MmfMKkxKHbkLC4WsRUGENF57C43h-dIUl4_IUze3ueClifOW_F9Te",
+      "rating": 8.0,
+      "description": "The Social Network is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1982,
+      "trailer": "https://www.youtube.com/watch?v=lB95KLmpLR4"
+    },
+    {
+      "id": 41,
+      "name": "The Grand Budapest Hotel",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuDcS2U5dj_fXMGq6Z9vcuSyqrIDz6IrWCr0xx1tQ6Wxq5eYFaC8d39bQzG7K7rHbtL5zM",
+      "rating": 7.6,
+      "description": "The Grand Budapest Hotel is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1999,
+      "trailer": "https://www.youtube.com/watch?v=1Fg5iWmQjwk"
+    },
+    {
+      "id": 42,
+      "name": "The Imitation Game",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2U4mxZY4YdluCriYhHs1iXSvB2-hZkHATfNTAiTZ-IfHk6E6s9uPYlDfTOvkCOkATd_XLzw",
+      "rating": 7.2,
+      "description": "The Imitation Game is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2014,
+      "trailer": "https://www.youtube.com/watch?v=S5CjKEFb-sM"
+    },
+    {
+      "id": 43,
+      "name": "Gravity",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS15NQ2UTGIfTTTJYFCBXxakUhWUqrtxCoUvKd_3Cz-mJ5oVXlhGqwKyne1khUtIXeduEqG",
+      "rating": 8.4,
+      "description": "Gravity is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1986,
+      "trailer": "https://www.youtube.com/watch?v=OiTiKOy59o4"
+    },
+    {
+      "id": 44,
+      "name": "Her",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSjDkLp8sp5n_oaiQ6pG8UAkiwNKv6joEeckXD8W_Tz8Out2msVPCenKgrxAA4vLkcR9qDDzg",
+      "rating": 8.4,
+      "description": "Her is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1988,
+      "trailer": "https://www.youtube.com/watch?v=WzV6mXIOVl4"
+    },
+    {
+      "id": 45,
+      "name": "Ex Machina",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQiBSWKUsQ8hPDbYIf5weY3zmWoqW5VWH4-Ke0oTFRf_jiUw3RReFfiLuDjwr5OqXYkYGCx4g",
+      "rating": 9.4,
+      "description": "Ex Machina is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2011,
+      "trailer": "https://www.youtube.com/watch?v=bggUmgeMCdc"
+    },
+    {
+      "id": 46,
+      "name": "Arrival",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO9qwnc0K3efH-V4JDY9UXsOjrQfyyzjc9Q0jXCAqQU0LJPSsM1KVvRFq-tTZ0Ra81iojR",
+      "rating": 6.8,
+      "description": "Arrival is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2011,
+      "trailer": "https://www.youtube.com/watch?v=tFMo3UJ4B4g"
+    },
+    {
+      "id": 47,
+      "name": "The Martian",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1cn6i1-z0X-18P7UKD-admBcUorkh6pxUMkOXyje--nxlWJllwJOsTY8mViygwg0dt56Odg",
+      "rating": 8.8,
+      "description": "The Martian is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1998,
+      "trailer": "https://www.youtube.com/watch?v=ej3ioOneTy8"
+    },
+    {
+      "id": 48,
+      "name": "Knives Out",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQyRkbeA0Oq6t-6JSo_34gex-gHQxf3-HZ1nFy0hoREsLEBag7Pxk0zkw6GlewIIF_oNpLD",
+      "rating": 7.5,
+      "description": "Knives Out is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1985,
+      "trailer": "https://www.youtube.com/watch?v=qGqiHJTsRkQ"
+    },
+    {
+      "id": 49,
+      "name": "Tenet",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYoAGfY4ffCXIoBdPYfxypbrvpGxQ5FA6w0r3ihzqzMZ5kxMaPXWGE50muitVS2CULBCdGvg",
+      "rating": 8.3,
+      "description": "Tenet is a critically acclaimed movie that audiences love.",
+      "releasedYear": 2023,
+      "trailer": "https://www.youtube.com/watch?v=L3pk_TBkihU"
+    },
+    {
+      "id": 50,
+      "name": "Everything Everywhere All At Once",
+      "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRW6n0N5NVFJhglILQYRF9hswb8iQ4lOw3cF2Qy7pH9aRPLZEnGW9cUbWYhyqTko_VJL7D8zQ",
+      "rating": 6.6,
+      "description": "Everything Everywhere All At Once is a critically acclaimed movie that audiences love.",
+      "releasedYear": 1985,
+      "trailer": "https://www.youtube.com/watch?v=wxN1T1uxQ2g"
+    }
+  ]
+}

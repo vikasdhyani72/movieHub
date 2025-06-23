@@ -1,0 +1,11 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "JSON server for movie data",
+  "scripts": {
+    "start": "json-server --watch movie.json --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
